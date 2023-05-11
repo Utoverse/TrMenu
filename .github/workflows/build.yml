@@ -5,6 +5,7 @@ on:
     branches: [ stable/v3 ]
   pull_request:
     branches: [ stable/v3 ]
+  workflow_dispatch: 
 
 jobs:
   releaseJar:
