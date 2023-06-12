@@ -68,8 +68,8 @@ dependencies {
     // Libraries
     compileOnly("org.apache.commons:commons-lang3:3.12.0")
     compileOnly("com.electronwill.night-config:core:3.6.5")
-    compileOnly("cc.trixey.invero:framework-common:1.0.0")
-    compileOnly("cc.trixey.invero:framework-bukkit:1.0.0")
+    // compileOnly("cc.trixey.invero:framework-common:1.0.0")
+    // compileOnly("cc.trixey.invero:framework-bukkit:1.0.0")
     // compileOnly("cc.trixey.invero:framework-core:1.0.0")
 
     // Server Core
@@ -84,7 +84,7 @@ dependencies {
     compileOnly("ink.ptms:Zaphkiel:1.6.0") { isTransitive = false }
     compileOnly("ca.tweetzy:skulls:2.7.2") { isTransitive = false }
     compileOnly("net.skinsrestorer:skinsrestorer-api:14.2.1") { isTransitive = false }
-    compileOnly("com.github.Th0rgal:Oraxen:master-SNAPSHOT") { isTransitive = false }
+    compileOnly("com.github.oraxen:oraxen:1.156.3") { isTransitive = false }
     compileOnly("org.black_ixx:playerpoints:3.1.1") { isTransitive = false }
     compileOnly("com.github.MilkBowl:VaultAPI:-SNAPSHOT") { isTransitive = false }
     compileOnly("com.github.tritonmc.Triton:core:v3.7.3") { isTransitive = false }
